@@ -13,9 +13,17 @@
     "lib": ["es2017", "dom"],
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
+    "strictPropertyInitialization": false,
+    "noImplicitAny": false,
     "baseUrl": ".",
     "paths": {
-      "@patient-manager/api-interfaces": ["libs/api-interfaces/src/index.ts"]
+      "@patient-manager/api-interfaces": ["libs/api-interfaces/src/index.ts"],
+      "@patient-manager/core-data": ["libs/core-data/src/index.ts"],
+      "@patient-manager/core-state": ["libs/core-state/src/index.ts"],
+      "@patient-manager/environment": ["libs/environment/src/index.ts"],
+      "@patient-manager/material": ["libs/material/src/index.ts"],
+      "@patient-manager/theme": ["libs/theme/src/index.ts"],
+      "@patient-manager/ui-login": ["libs/ui-login/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

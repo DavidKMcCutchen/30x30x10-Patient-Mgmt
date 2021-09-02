@@ -1,0 +1,8 @@
+
+<div class="container">
+  <div class="col-50" layout="row" layout-align="center center">
+<div *ngIf="currentPatient$ | async as patient">
+  <patient-manager-patient-info [patient]="currentPatient$ | async"></patient-manager-patient-info>
+</div>
+</div>
+</div><p>patient works!</p>

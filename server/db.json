@@ -1,0 +1,21 @@
+{
+  "patients": [
+    {
+      "id": 2,
+      "name": "Matt Murray",
+      "dob": "November 3rd, 1992",
+      "address": "1234 Main Street",
+      "zip": "85383",
+      "insurance": false
+    },
+    {
+      "id": 3,
+      "name": "David McCutchen",
+      "dateOfBirth": "9/1/1990",
+      "placeOfBirth": null,
+      "occupation": null,
+      "iq": null,
+      "banished": null
+    }
+  ]
+}
